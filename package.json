@@ -1,0 +1,16 @@
+{
+  "name": "belen_alonso",
+  "private": true,
+  "description": "Belen Alonso Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "keywords": [],
+  "author": "Salva",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^3.2.4"
+  }
+}
