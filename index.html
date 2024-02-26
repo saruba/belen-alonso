@@ -50,12 +50,27 @@
       .psychotherapy-picture {
         width: 350px;
       }
+
+      .container {
+        max-width: 850px;
+      }
+
+      .psychotherapy-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .COPCV {
+        width: 100px;
+      }
     </style>
+    <script src="https://kit.fontawesome.com/8c0fc86c36.js" crossorigin="anonymous"></script>
   </head>
-  <body>
     <section class="hero is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
+          <h1 class="is-sr-only">Belén Alonso</h1>
+          <h2 class="is-sr-only">Psicóloga <br> Psicoterapeuta infanto-juvenil<h2/>
           <figure class="image">
             <img
               style="width: auto; max-height: 60vh; margin: auto"
@@ -91,8 +106,6 @@
         </nav> -->
       </div>
     </section>
-    <!-- <h1 class="title is-1 has-text-centered">Belén Alonso</h1>
-    <h2 class="subtitle is-1 has-text-centered">Psicóloga <br> Psicoterapeuta infanto-juvenil<h2/> -->
     <section class="section">
       <div class="container is-max-desktop">
         <section class="content has-text-justified" id="quien-soy">
@@ -151,7 +164,7 @@
                 class="psychotherapy-picture"
               />
             </figure>
-            <div class="column">
+            <div class="column psychotherapy-description">
               <h3 class="has-text-red has-text-centered">
                 Psicoterapia infantil
               </h3>
@@ -175,7 +188,7 @@
             </div>
           </article>
           <article class="columns">
-            <div class="column">
+            <div class="column psychotherapy-description">
               <h3 class="has-text-blue has-text-centered">
                 Psicoterapia con adolescentes
               </h3>
@@ -211,7 +224,7 @@
                 class="psychotherapy-picture"
               />
             </figure>
-            <div class="column">
+            <div class="column psychotherapy-description">
               <h3 class="has-text-green has-text-centered">
                 Psicoterapia con jóvenes
               </h3>
@@ -235,7 +248,7 @@
             </div>
           </article>
           <article class="columns">
-            <div class="column">
+            <div class="column psychotherapy-description">
               <h3 class="has-text-purple has-text-centered">
                 Psicoterapia con adultos
               </h3>
@@ -275,7 +288,7 @@
                 class="psychotherapy-picture"
               />
             </figure>
-            <div class="column">
+            <div class="column psychotherapy-description">
               <h3 class="has-text-orange has-text-centered">
                 Asesoramiento parental
               </h3>
@@ -298,25 +311,73 @@
         </section>
         <section class="content" id="contacto">
           <h2 class="has-text-centered">Contacto</h2>
-          <ul>
-            <li><a href="tel:+34646125341">+34 646 12 53 41</a></li>
-            <li><a href="https://wa.me/34646125341">Whatsapp</a></li>
-            <li>
-              <a href="mailto:belenalonsopsicologa@gmail.com">
-                belenalonsopsicologa@gmail.com
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/belenalonsopsicologia/"
-                target="_blank"
-              >
-                @belenalonsopsicologia
-              </a>
-            </li>
-          </ul>
+          <article class="columns">
+            <div class="column">
+              <p class="has-text-justified">
+                Si estás pasando por una situación difícil y necesitas ayuda, contacta conmigo sin compromiso. Estaré encantada de ayudarte.
+              </p>
+              <p class="has-text-justified">
+                Pide tu cita en Valencia o sesiones online
+              </p>
+              <ul>
+                <li>
+                  <a href="tel:+34646125341">
+                    <span class="icon">
+                      <i class="fa-solid fa-mobile-screen-button"></i>
+                    </span>
+                    +34 646 12 53 41
+                  </a>
+                </li>
+                <li>
+                  <a href="https://wa.me/34646125341">
+                    <span class="icon">
+                      <i class="fa-brands fa-whatsapp"></i>
+                    </span>
+                    Whatsapp
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:belenalonsopsicologa@gmail.com">
+                    <span class="icon">
+                      <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    belenalonsopsicologa@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/belenalonsopsicologia/"
+                    target="_blank"
+                  >
+                    <span class="icon">
+                      <i class="fa-brands fa-instagram"></i>
+                    </span>
+                    @belenalonsopsicologia
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <iframe
+              class="box p-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0212442925667!2d-0.3903854233832481!3d39.46884877160769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f46ea7bfbeb%3A0xae50f7090d235565!2sCl%C3%ADnica%20Cabalta!5e0!3m2!1sen!2ses!4v1708986415511!5m2!1sen!2ses"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </article>
         </section>
       </div>
     </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <figure class="image is-inline-block COPCV">
+          <img src="images/sello_COPCV_CV15445.png" alt="Belén Alonso" />
+      </div>
+    </footer>
   </body>
 </html>
